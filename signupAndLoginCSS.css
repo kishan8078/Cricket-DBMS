@@ -1,0 +1,68 @@
+body{
+    background-image: url("images/the-blowup-fkNj93aU0B8-unsplash-01.jpeg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /*background-image: url("1088620-02.jpeg");*/
+    overflow: hidden;
+}
+.main{
+    text-align: center;
+    height:500px;
+    padding-top:30px;
+    position: relative;
+}
+.form{
+    padding: 30px 0px 0px 0px;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 36.5%;
+    width:500px;
+    height: 431px;
+    box-shadow:1px 3px 9px 3px black;
+}
+label,input{
+    text-align: center;
+    margin:20px 0px 0px 20px ;
+    font-size: 20px;
+    border-radius: 5px;
+}
+input{
+    border: 2px black solid;
+    height: 30px;
+}
+.rst,.sbmt{
+    height: 50px;
+    width: 100px;
+    background: transparent;
+    border:3px white solid;
+    margin: 50px;
+    font-size: 20px;
+    color: rgb(223, 211, 211);
+    border-radius: 5px;
+    box-shadow:1px 3px 9px 3px black;
+    /*position: relative;
+    overflow: hidden;*/
+    transition: 0.3s;
+}
+.rst{
+    background-color:rgb(100, 62, 62);   
+}
+.sbmt{
+    background-color: rgb(65, 104, 74);
+}
+.rst:hover{
+    background-color:rgb(188, 88, 88);
+    cursor: pointer;
+    transform: scale(1.09);
+}
+.sbmt:hover{
+    background-color: rgb(77, 188, 103);
+    cursor: pointer;
+    transform: scale(1.09);
+}
+a{
+    text-decoration: none;
+    color: rgb(77, 188, 103);
+    text-decoration: underline;
+}

@@ -1,0 +1,98 @@
+body{
+    background-image: url("images/the-blowup-fkNj93aU0B8-unsplash-01.jpeg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /*background-image: url("1088620-02.jpeg");*/
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+    background: transparent;
+    height: 90px;
+    text-align: right;
+    padding-right: 20px;
+    /*position: relative;*/
+    border-radius: 5px;
+    box-shadow:1px 3px 9px 3px;
+    position: sticky;
+}
+.navbar .logo{
+    list-style: none;
+    text-align: left;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(177, 176, 174);
+    position: absolute;
+    margin: 10px 0px 0px -10px;
+    color:black;
+
+}
+.navbar .lists{
+    list-style: none;
+    padding: 10px;
+    /*padding-top: 10px;
+    padding-bottom: 10px;*/
+    font-size:20px;
+    margin-top:20px;
+    color: black;
+    border-radius: 5px;
+    display: inline-block;
+    margin-left: 25px;
+    background-color: white;
+    box-shadow: 0px 0px 5px 1px white;
+}
+a{
+    text-decoration: none;
+    color: rgb(177, 176, 174);
+}
+.navbar a:hover{
+    color: antiquewhite;
+    cursor: pointer;
+}
+.lists::after{
+    content: " ";
+    display:block;
+    position:absolute;
+    visibility:hidden;
+    background-color:black;
+    height: 4px;
+    width: 46px;
+    transition: 0.3s;
+    transform: scaleX(0.02);
+}
+.lists:hover::after{
+    transform: scaleX(1);
+    visibility: visible;
+}
+.login{
+    height: 500px;
+    width: 550px;
+    border: 3px white solid;
+    position:absolute;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 31%;
+    background-color:azure;
+    z-index: 3;
+}
+.form{
+    border: 3px blue solid;
+    text-align: center;
+    margin-top: 150px;
+}
+.login .form .cats{
+    border: 3px black solid;
+    background-color: rgb(11, 218, 11);
+}
+.login .form .cats:hover{
+    background-color: green;
+}
+label,input{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+}
+
